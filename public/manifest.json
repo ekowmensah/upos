@@ -1,0 +1,100 @@
+{
+    "name": "Gye Nyame Ventures - POS",
+    "short_name": "UPOS",
+    "description": "Ultimate Point of Sale System with Offline Support",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3c8dbc",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/img/icon-72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/icon-384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "POS",
+            "short_name": "POS",
+            "description": "Open Point of Sale",
+            "url": "/pos/create",
+            "icons": [
+                {
+                    "src": "/img/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Sales",
+            "short_name": "Sales",
+            "description": "View Sales List",
+            "url": "/sells",
+            "icons": [
+                {
+                    "src": "/img/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Products",
+            "short_name": "Products",
+            "description": "Manage Products",
+            "url": "/products",
+            "icons": [
+                {
+                    "src": "/img/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "categories": ["business", "finance", "productivity"],
+    "prefer_related_applications": false
+}
